@@ -106,10 +106,27 @@ main{
     align-items: center;
 }
 .footer{
-    background: #755d5d;
+    background: #291515;
     height: 250px;
-    display: flex;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 .custom-footer{
-    margin-bottom: 5px;
+    width: 300px;
+    height: 150px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.footer-align{
+    text-align: center;
+    color: white;
+}
+.footer-awesome{
+    color: white;
+}
+.footer-awesome i{
+    margin-right: 10px;
+    font-size: 30px;
 }
