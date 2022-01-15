@@ -2,6 +2,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+
+
+
+/*--------------------------------------------- 
+               header part
+----------------------------------------------*/
 .header-style{
     font-size: 24px;
     margin-left: 120px;
@@ -41,6 +47,44 @@ main{
 .fa-arrow-right {
     margin-left: 10px;
 }
+
+
+
+/* ------------------------------------------
+               Brand logo
+---------------------------------------------- */
+.brand-logo{
+    display: flex;
+    width: 1110px;
+    height: 110px;
+    margin-left: 165px;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    
+}
+.logo-custom{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center
+    
+}
+.logo img{
+    margin-right: 54px;
+    width: 100px;
+    height: 28px;
+}
+
+
+
+/*-------------------------------------------
+              Main Section 
+----------------------------------------------*/
 .main-section{
     margin-left: 195px;
     width: 1047px;
@@ -105,8 +149,31 @@ main{
     justify-content: flex-end;
     align-items: center;
 }
+
+
+
+/* -------------------------------------------------
+                Second Section 
+-----------------------------------------------------*/
+.second-section{
+    width: 1110px;
+    height: 270px;
+    margin-left: 165px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.feature-product{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+/* -----------------------------------------
+                Footer
+--------------------------------------------- */
 .footer{
-    background: #291515;
+    background: #3d135a;
     height: 250px;
     display: grid;
     justify-content: center;
